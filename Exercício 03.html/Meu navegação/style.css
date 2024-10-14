@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header {
+ background-color: rgb(0, 0, 0);
+ padding: 20px 0px;
+}
+nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    margin: 15px;
+}
+nav ul li {
+color: white;
+text-decoration: none;
+font-weight: bold;
+padding: 5px 10px;
+transition: color 0.1s;
+}
+nav ul li:hover {
+    color: brown;
+
+}
+section{
+    padding: 60px 20px;
+    text-align: center;
+    height: 900px;
+}
+#Home{
+    background-color: rgba(245, 245, 220, 0.861);
+}
+#Sobre{
+    background-color: bisque;
+}
+#Contato{
+    background-color: chocolate;
+}

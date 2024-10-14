@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    /*Removendo as margens padrão*/
+    padding: 0;
+    /*Remevendo o preechimento padrão*/
+    box-sizing: border-box;
+    /*ajusta o padding e o margin do elemento para que todos os elementos internos sejam considerados como se estivessem dentro do elemento*/
+}
+
+/*Estilizar o cabeçalho*/
+header {
+    background-color: #333;
+    /*define a cor de fundo do cabeçalho*/
+    padding: 20px 0px;
+    /*Adciona espaçamento na parte superior e inferior do cabeçalho*/
+}
+
+nav ul {
+   
+    display: flex;
+    /*define a exibição dos itens da lista para linha*/
+    list-style: none;
+    /*Remove os marcadores*/
+    justify-content: center;
+    /*Centralizar os itens do menu ao centro*/
+    margin: 15px;
+    /*define espaçamento entre linhas*/
+}
+
+nav ul li a {
+    color: white;
+    /*cor da letra branca*/
+    text-decoration: none;
+    /*removendo o sublinhado*/
+    font-weight: bold;
+    /*define os textos do link em negrito*/
+    padding: 5px 10px;
+    transition: color 0.10s;
+}
+
+nav ul li a:hover {
+    color: bisque;
+    /*Efeito ao passar o mouse*/
+}
+
+section{
+    padding: 60px 20px;
+    text-align: center;
+    height: 900px;
+   
+}
+#Início{
+    background-color: beige;
+}
+#Institucional{
+    background-color: lightblue;
+   
+}
+
+#ÁreasdeAtuação{
+    background-color: lavender;
+}
+
+#Contato{
+    background-color: lavender;
+}
+
+#TrabalheConosco{
+    background-color: lavender;
+}
