@@ -1,0 +1,25 @@
+    body {
+        font-family: Arial, sans-serif;
+    }
+footer {
+    background-color: #04288b; /* Cor de fundo escura */
+    color: white; /* Cor do texto clara */
+    text-align: center; /* Alinhamento do texto */
+    padding: 20px; /* Espaçamento interno */
+}
+table {
+    margin: 20px auto; /* Centraliza a tabela */
+    border-collapse: collapse; /* Remove espaços entre bordas */
+    width: 80%; /* Largura da tabela */
+}
+th, td {
+    border: 1px solid white; /* Bordas brancas */
+    padding: 10px; /* Espaçamento interno das células */
+    text-align: left; /* Alinhamento do texto à esquerda */
+}
+img {
+    max-width: 100px; /* Ajusta o tamanho da imagem */
+    height: auto; /* Mantém a proporção da imagem */
+    display: block; /* Exibe a imagem como bloco */
+    margin: 10px auto; /* Centraliza a imagem */
+}
